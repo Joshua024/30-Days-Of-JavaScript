@@ -1,0 +1,55 @@
+const firstName = "Joshua";
+const lastName = "Adumchimma";
+const country = "Nigeria";
+const city = "Lagos";
+const age = 30;
+const isMarried = "Single";
+const year = 2023;
+console.log(typeof firstName, firstName);
+console.log(typeof lastName, lastName);
+console.log(typeof country, country);
+console.log(typeof city, city);
+console.log(typeof age, age);
+console.log(typeof isMarried, isMarried);
+console.log(typeof year, year);
+
+const num = parseInt("9.8") == 10;
+console.log(num);
+console.log(0 == "");
+console.log(1 == true);
+console.log("" == false);
+
+console.log("string" == 1);
+console.log(null == 1);
+console.log("string" == 0);
+
+console.log(4 > 3);
+console.log(4 >= 3);
+console.log(4 < 3);
+console.log(4 <= 3);
+console.log(4 == 4);
+console.log(4 === 4);
+console.log(4 != 4);
+console.log(4 !== 4);
+console.log(4 != "4");
+console.log(4 !== "4");
+console.log(4 === "4");
+const str1 = "python";
+const str2 = "jargon";
+console.log(str1 == str2);
+
+const now = new Date();
+const day = now.getDay() + 1;
+const month = now.getMonth() + 1;
+const year2 = now.getFullYear();
+const hour = now.getHours();
+const minutes = now.getMinutes();
+const time = now.getTime();
+const date = now.getDate();
+console.log(year2);
+console.log(month);
+console.log(date);
+console.log(day);
+console.log(hour);
+console.log(minutes);
+console.log(time);
